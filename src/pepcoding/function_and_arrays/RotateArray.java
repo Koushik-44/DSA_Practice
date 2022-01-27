@@ -5,6 +5,31 @@
     the left for negative values of k.
 */
 
+/*
+    public static void reverse(int[] a, int li, int ri){
+        while(li < ri){
+          int temp = a[li];
+          a[li]= a[ri];
+          a[ri] = temp;
+
+          li++;
+          ri--;
+        }
+      }
+
+  public static void rotate(int[] a, int k){
+    k = k % a.length;
+    if(k < 0){
+      k += a.length; //+ve reverse = -ve reverse + array length
+    }
+
+    reverse(a, 0, a.length - k - 1);
+    reverse(a, a.length - k, a.length - 1);
+    reverse(a, 0, a.length - 1);
+  }
+
+*/
+
 package pepcoding.function_and_arrays;
 
 import java.io.BufferedReader;
@@ -64,3 +89,5 @@ public class RotateArray {
         }
     }
 }
+
+
