@@ -31,27 +31,26 @@ public class AnyBaseSubtraction {
 
     private static int anyBaseSub(int base, int n1, int n2) {
 
-        int ans = 0, carry = 0, multiplier = 1, flag = 0;
+        int ans = 0, carry = 0, multiplier = 1;
 
-        while(n1 > 0 || n2 > 0 || carry != 0)
+        while(n2 > 0)
         {
             int d1 = n1 % 10;
             int d2 = n2 % 10;
 
-            if (d2 + carry < d1) {
-                flag = 1;
-                d2 = d2 + base;
-            } else
-                flag = 0;
+            int digit = 0;
+            d2 = d2 + carry;
 
-            ans = ans + (d2 + carry - d1) * multiplier;
-
-            if (flag == 1)
-                carry = -1;
-            else
+            if(d2 >= d1) {
                 carry = 0;
+                digit = d2 - d1;
+            }
+            else{
+                carry = -1;
+                digit = d2 + base - d1;
+            }
 
-
+            ans = ans + digit*multiplier;
             multiplier = multiplier * 10;
 
             n1 /= 10;
