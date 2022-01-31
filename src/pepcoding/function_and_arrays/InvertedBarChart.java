@@ -39,9 +39,9 @@ public class InvertedBarChart {
                 .max()
                 .getAsInt();
 
-        for(int i=1; i<=max; i++) {
-            for(int k=0; k<n; k++) {
-                if(arr[k] >= i)
+        for (int i = 1; i <= max; i++) {
+            for (int k = 0; k < n; k++) {
+                if (arr[k] >= i)
                     System.out.print("*\t");
                 else
                     System.out.print("\t");
