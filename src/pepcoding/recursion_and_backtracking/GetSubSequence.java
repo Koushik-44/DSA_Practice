@@ -34,7 +34,5 @@ public class GetSubSequence {
             myResult.add(ch+s);
         }
         return myResult;
-
-
     }
 }
