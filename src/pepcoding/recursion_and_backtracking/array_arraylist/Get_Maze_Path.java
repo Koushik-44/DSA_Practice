@@ -11,7 +11,7 @@
     Sample Output
     [hhvv, hvhv, hvvh, vhhv, vhvh, vvhh]
 */
-package pepcoding.recursion_and_backtracking;
+package pepcoding.recursion_and_backtracking.array_arraylist;
 
 import java.util.ArrayList;
 import java.util.Scanner;

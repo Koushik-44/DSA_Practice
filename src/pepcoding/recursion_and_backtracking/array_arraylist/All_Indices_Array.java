@@ -28,7 +28,7 @@
     4
 */
 
-package pepcoding.recursion_and_backtracking;
+package pepcoding.recursion_and_backtracking.array_arraylist;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;

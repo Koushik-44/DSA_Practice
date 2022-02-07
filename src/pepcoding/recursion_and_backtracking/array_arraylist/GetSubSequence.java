@@ -5,7 +5,7 @@
     [, c, b, bc, a, ac, ab, abc]
 */
 
-package pepcoding.recursion_and_backtracking;
+package pepcoding.recursion_and_backtracking.array_arraylist;
 
 import java.util.*;
 

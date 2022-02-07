@@ -6,7 +6,7 @@
     Sample Output
     [h1v1, v1h1, d1]
 */
-package pepcoding.recursion_and_backtracking;
+package pepcoding.recursion_and_backtracking.array_arraylist;
 
 import java.util.ArrayList;
 import java.util.Scanner;

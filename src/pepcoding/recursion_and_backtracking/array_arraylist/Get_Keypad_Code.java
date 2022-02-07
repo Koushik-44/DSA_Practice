@@ -17,7 +17,7 @@
         Sample Output
         [tv, tw, tx, uv, uw, ux]
  */
-package pepcoding.recursion_and_backtracking;
+package pepcoding.recursion_and_backtracking.array_arraylist;
 
 import java.util.*;
 
