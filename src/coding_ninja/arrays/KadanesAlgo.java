@@ -22,7 +22,6 @@ public class KadanesAlgo {
         int subarrayLeft = -1, subarrayRight = -1;
         int leftTemp = 0;
         for(int i=0; i<n; i++) {
-            leftTemp = i;
             currentSum += arr[i];
             if(currentSum > maxSum)
             {
