@@ -7,7 +7,7 @@ import java.util.Scanner;
 // for merge test (master)
 //hsfdjfkfks.jsdk
 //xgchjvkjdshvjkxvdbfbfbfbh
-//Koushik
+//Koushik Bhattacharya
 
 public class All_Palindromic_Substring {
     public static void main(String[] args) {
