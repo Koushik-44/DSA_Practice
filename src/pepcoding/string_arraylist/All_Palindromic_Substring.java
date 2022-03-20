@@ -2,6 +2,8 @@ package pepcoding.string_arraylist;
 
 import java.util.Scanner;
 
+//for git purpose line 1;
+
 public class All_Palindromic_Substring {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
