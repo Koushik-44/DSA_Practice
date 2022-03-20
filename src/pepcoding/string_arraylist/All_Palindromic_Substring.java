@@ -3,6 +3,7 @@ package pepcoding.string_arraylist;
 import java.util.Scanner;
 
 //for git purpose line 1;
+//for git Line 2;
 
 public class All_Palindromic_Substring {
     public static void main(String[] args) {
