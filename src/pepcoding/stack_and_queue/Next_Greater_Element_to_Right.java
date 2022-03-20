@@ -58,7 +58,7 @@ public class Next_Greater_Element_to_Right {
         res[arr.length - 1] = -1; //Last element of result will always be -1
 
         for (int i = arr.length - 2; i >= 0; i--) {
-            while (st.size() > 0 && arr[i] > st.peek()) { //popping elements till size > 0 or tos < arr[i]
+            while (st.size() > 0 && arr[i] > st.peek()) { //popping elements till size > 0 and tos < arr[i]
                 st.pop();
             }
             if (st.size() == 0) { // after popping, if stack is empty then put -1 in result[]
